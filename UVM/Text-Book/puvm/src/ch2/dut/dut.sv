@@ -1,9 +1,9 @@
 module dut(clk,
-           rst_n, 
-           rxd,
-           rx_dv,
-           txd,
-           tx_en);
+         rst_n, 
+         rxd,
+         rx_dv,
+         txd,
+         tx_en);
 input clk;
 input rst_n;
 input[7:0] rxd;
